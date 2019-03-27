@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {
 	margin: 0 auto;
-	width: 700px;
+	width: 900px;
+	overflow: auto;
 }
 
 body{
@@ -75,14 +76,14 @@ body{
 
 .nav-bar {
 	display: flex;
-	margin: 20px 20px;
 	text-decoration: none;
 	color: lightgray;
-	justify-content: space-evenly;
+	justify-content: center;
+	align-items: center;
 }
 
 span {
-	margin: 0 40px;
+	margin: 0 34px;
 	text-align: center;
 }
 
@@ -105,15 +106,23 @@ header h1 {
 button {
 	border: 1px solid black;
 	font-size: 20px;
-	padding: 5px 30px;
+	padding: 0px 30px;
 }
-
-
 
 .top-services {
 	border-top: 1px solid black;
-	display: inline-flex;
+	display: flex;
 	padding: 30px;
+	justify-content: space-between;
+}
+
+.top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0;
+	
 }
 
 
