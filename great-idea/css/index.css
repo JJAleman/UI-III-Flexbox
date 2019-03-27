@@ -145,7 +145,11 @@ button {
 
 .contact-section {
 	border-top: 1px solid black;
-	padding: 30px;
+	margin-top: 30px;
+}
+
+.space-line{
+	margin-top: 30px;
 }
 
 footer .copyright {
