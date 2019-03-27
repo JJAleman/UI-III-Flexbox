@@ -74,13 +74,12 @@ body{
 }
 
 .nav-bar {
-	display: inline-flex;
-	margin: 10px 10px;
+	display: flex;
+	margin: 20px 20px;
 	text-decoration: none;
 	color: lightgray;
-	text-align: left;
+	justify-content: space-evenly;
 }
-
 
 span {
 	margin: 0 40px;
@@ -92,10 +91,11 @@ p {
 }
 
 header {
-	display: inline-flex;
+	display: flex;
 	font-size: 80px;
 	margin: 40px;
 	text-align: center;
+	justify-content: center;
 }
 
 header h1 {
